@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+      "news-box contact-details"
+      "news-box documentation-link";
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .news-box {
+    grid-area: news-box;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .contact-details {
+    grid-area: contact-details;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .documentation-link {
+    grid-area: documentation-link;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  

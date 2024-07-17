@@ -1,0 +1,69 @@
+<main>
+    <header>
+        <img src="assets/ford.png" class="logo">
+      <div class="header-text">Enterprise Host Protection Audit System(EHPAS)</div>
+    </header>
+    <div class="navbar">
+      <a routerLink="/ehpasWeb/home">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Reports
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a routerLink="/ehpasWeb/auditLogReport">auditLogReport</a>
+          <a routerLink="/ehpasWeb/checkDetailRpt">checkDetailRpt</a>
+          <a routerLink="/ehpasWeb/reportsSelection">reportsSelection</a>
+          <a routerLink="/ehpasWeb/escalationReport">escalationReport</a>
+          <a routerLink="/ehpasWeb/softwareReports">softwareReports</a>
+          <a routerLink="/ehpasWeb/ehpasReports">ehpasReports</a>
+          <a routerLink="/ehpasWeb/priWgMemberRpt">priWgMemberRpt</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Software
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a routerLink="/ehpasWeb/softwareMgmtSearch">softwareMgmtSearch</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Device
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a routerLink="/ehpasWeb/queryDeviceOwnership">queryDeviceOwnership</a>
+          <a routerLink="/ehpasWeb/batchProcessDetail">batchProcessDetail</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Support Groups
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a routerLink="/ehpasWeb/supportGrpMgmtSearch">supportGrpMgmtSearch</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">User
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a routerLink="/ehpasWeb/usersSearch">usersSearch</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Admin
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a routerLink="/ehpasWeb/complianceCheckInquiry">complianceCheckInquiry</a>
+          <a routerLink="/ehpasWeb/workgroupMgmtSearch">workgroupMgmtSearch</a>
+        </div>
+      </div>
+    </div>
+    <section class="content">
+      <router-outlet></router-outlet>
+    </section>
+  </main>
+  
